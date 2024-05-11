@@ -1,13 +1,17 @@
 class Assets {
   Assets._();
   
-  /// Assets for imagesAvater1
-  /// assets/images/avater1.svg
-  static const String imagesAvatar1 = "assets/images/avater1.svg";
+  /// Assets for imagesAvatar1
+  /// assets/images/avatar1.svg
+  static const String imagesAvatar1 = "assets/images/avatar1.svg";
 
-  /// Assets for imagesAvater2
-  /// assets/images/avater2.svg
-  static const String imagesAvatar2 = "assets/images/avater2.svg";
+  /// Assets for imagesAvatar2
+  /// assets/images/avatar2.svg
+  static const String imagesAvatar2 = "assets/images/avatar2.svg";
+
+  /// Assets for imagesAvatar3
+  /// assets/images/avatar3.svg
+  static const String imagesAvatar3 = "assets/images/avatar3.svg";
 
   /// Assets for imagesBalance
   /// assets/images/balance.svg
