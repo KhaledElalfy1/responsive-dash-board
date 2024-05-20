@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_dash_board/utils/app_styles.dart';
+
 class RangeOptions extends StatelessWidget {
   const RangeOptions({
     super.key,
@@ -26,7 +27,7 @@ class RangeOptions extends StatelessWidget {
           Transform.rotate(
             angle: (270 * 22 / 7) / 180,
             child: const Icon(
-              Icons.arrow_back_ios,
+              Icons.arrow_back_ios_new,
               color: Color(0xff064061),
             ),
           ),
