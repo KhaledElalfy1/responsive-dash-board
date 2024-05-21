@@ -20,7 +20,7 @@ class DashboardDesktopLayout extends StatelessWidget {
           flex: 2,
           child: Padding(
             padding: EdgeInsets.symmetric(
-              vertical: 8.0,
+              vertical: 40.0,
               horizontal: 24,
             ),
             child: AllExpensesAndQuickInvoice(),
