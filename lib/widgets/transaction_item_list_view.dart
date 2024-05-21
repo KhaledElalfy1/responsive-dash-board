@@ -23,14 +23,8 @@ class TransactionItemListView extends StatelessWidget {
   ];
   @override
   Widget build(BuildContext context) {
-    return ListView.separated(
-      shrinkWrap: true,
-      itemCount: items.length,
-      itemBuilder: (context, index) =>
-          TransactionItem(transactionModel: items[index]),
-      separatorBuilder: (context, index) => const SizedBox(
-        height: 12,
-      ),
+    return Column(
+      children: items.map((e) => TransactionItem(transactionModel: e)).toList(),
     );
   }
 }
