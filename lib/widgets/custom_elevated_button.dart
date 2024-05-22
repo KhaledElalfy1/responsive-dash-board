@@ -19,7 +19,7 @@ class CustomElevatedButton extends StatelessWidget {
         onPressed: () {},
         child: Text(
           'Send Money',
-          style: AppStyles.styleSemiBold18.copyWith(color:textColor),
+          style: AppStyles.styleSemiBold18(context).copyWith(color:textColor),
         ),
       ),
     );

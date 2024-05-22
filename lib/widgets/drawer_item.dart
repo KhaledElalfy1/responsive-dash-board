@@ -12,9 +12,14 @@ class DrawerItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListTile(
       leading: SvgPicture.asset(drawerItemModel.imagePath),
-      title: Text(
-        drawerItemModel.title,
-        style: isActive ? AppStyles.styleBold16 : AppStyles.styleRegular16,
+      title: FittedBox(
+        fit: BoxFit.scaleDown,
+        child: Text(
+          drawerItemModel.title,
+          style: isActive
+              ? AppStyles.styleBold16(context)
+              : AppStyles.styleRegular16(context),
+        ),
       ),
       trailing: isActive
           ? Container(

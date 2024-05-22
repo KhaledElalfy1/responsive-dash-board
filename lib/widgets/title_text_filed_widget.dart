@@ -13,7 +13,7 @@ class TitleTextFiledWidget extends StatelessWidget {
       children: [
         Text(
           title,
-          style: AppStyles.styleMedium16,
+          style: AppStyles.styleMedium16(context),
         ),
         const SizedBox(
           height: 12,
