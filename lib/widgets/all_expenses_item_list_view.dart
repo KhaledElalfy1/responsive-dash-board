@@ -33,25 +33,53 @@ class _AllExpensesItemListViewState extends State<AllExpensesItemListView> {
   @override
   Widget build(BuildContext context) {
     return Row(
-      // children: items .map((e) =>  Expanded(child: AllExpensesItem(allExpensesItemModel: e))) .toList()
-
-      children: items.asMap().entries.map((e) {
-        return Expanded(
-            child: GestureDetector(
-          onTap: () {
-            setState(() {
-              index = e.key;
-            });
-          },
-          child: Padding(
-            padding: EdgeInsets.symmetric(horizontal: e.key == 1 ? 12.0 : 0),
+      children: [
+        Expanded(
+          child: GestureDetector(
+            onTap: () {
+              setState(() {
+                index = 0;
+              });
+            },
             child: AllExpensesItem(
-              allExpensesItemModel: e.value,
-              isSelected: e.key == index,
+              allExpensesItemModel: items[0],
+              isSelected: 0 == index,
             ),
           ),
-        ));
-      }).toList(),
+        ),
+        const SizedBox(
+          width: 8,
+        ),
+        Expanded(
+          child: GestureDetector(
+            onTap: () {
+              setState(() {
+                index = 1;
+              });
+            },
+            child: AllExpensesItem(
+              allExpensesItemModel: items[1],
+              isSelected: 1 == index,
+            ),
+          ),
+        ),
+        const SizedBox(
+          width: 8,
+        ),
+        Expanded(
+          child: GestureDetector(
+            onTap: () {
+              setState(() {
+                index = 2;
+              });
+            },
+            child: AllExpensesItem(
+              allExpensesItemModel: items[2],
+              isSelected: 2 == index,
+            ),
+          ),
+        ),
+      ],
     );
   }
 }
