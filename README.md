@@ -1,16 +1,38 @@
 # responsive_dash_board
 
-A new Flutter project.
+## description
+in this project we made a responsvie and adaptive dashboard that change its size and UI acorrding to screen size and platform
 
-## Getting Started
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Images](#images)
 
-This project is a starting point for a Flutter application.
+## Installation
 
-A few resources to get you started if this is your first Flutter project:
+1. Clone the repo:
+   ``` sh
+    git clone https://github.com/KhaledElalfy1/responsive-dash-board
+   ```
+2. move to the project directory:
+  ``` sh
+    cd responsive_dash_board
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+3. Clean the project and install dependencies:
+   ``` sh
+   flutter clean
+   flutter pub get
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   ## Usage
+   To run the project, use the following command:
+   ``` sh
+     flutter run
+   ```
+
+   ## Images
+
+   1. **Mobile layout**
+   2. **Tablet layout**
+   3. **Desktop layout**
+      
