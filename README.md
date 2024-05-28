@@ -33,6 +33,9 @@ in this project we made a responsvie and adaptive dashboard that change its size
    ## Images
 
    1. **Mobile layout**
+        ![Screenshot](mobile.png)
    2. **Tablet layout**
+        ![Screenshot](tablet.png)
    3. **Desktop layout**
+        ![Screenshot](desktop.png)
       
